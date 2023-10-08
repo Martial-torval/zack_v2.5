@@ -1,0 +1,171 @@
+[
+  {
+    "id": 1,
+    "libelle": "Bail$",
+    "artist": "OVTHEX",
+    "releaseDate": "2023",
+    "credits": "Director/Edit/Color - ZACK",
+    "duration": "3.24",
+    "youtubeId": "EsAYrB9ripc",
+    "slug": "bail$"
+  },
+  {
+    "id": 2,
+    "libelle": "Jusqu'ici tout va mal",
+    "artist": "YUZ BOY",
+    "releaseDate": "2023",
+    "credits": "Edit - ZACK",
+    "duration": "2.06",
+    "youtubeId": "H8wHeGlX0fs",
+    "slug": "jusqu'ici-tout-va-mal"
+  },
+  {
+    "id": 3,
+    "libelle": "Prophecie",
+    "artist": "22 CARBONE",
+    "releaseDate": "2022",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "OVivniQedmw",
+    "slug": "Prophecie"
+  },
+  {
+    "id": 4,
+    "libelle": "AMS",
+    "artist": "L’AS",
+    "releaseDate": "2022",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "HdOgIS1VeL4",
+    "slug": "ams"
+  },
+  {
+    "id": 5,
+    "libelle": "London",
+    "artist": "SULLY",
+    "releaseDate": "2022",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "8eEOs9NVN-U",
+    "slug": "london"
+  },
+  {
+    "id": 6,
+    "libelle": "Mon Bébé",
+    "artist": "SULLY",
+    "releaseDate": "2022",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "mGpR6Lke5jA",
+    "slug": "mon-bebe"
+  },
+
+  {
+    "id": 7,
+    "libelle": "L'hiver sans soleil",
+    "artist": "SEUBLI",
+    "releaseDate": "2023",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "_TMejCkSSkk",
+    "slug": "l'hiver-sans-soleil"
+  },
+  {
+    "id": 8,
+    "libelle": "21G",
+    "artist": "2ZER",
+    "releaseDate": "2023",
+    "credits": "Edit - ZACK",
+    "youtubeId": "UH0SNWbzmIE",
+    "slug": "21g"
+  },
+  {
+    "id": 9,
+    "libelle": "Il était une fois…",
+    "artist": "YUNG $INAY",
+    "releaseDate": "2023",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "uhm0w76zpsc",
+    "slug": "il-etait-une-fois"
+  },
+  {
+    "id": 10,
+    "libelle": "La Noche",
+    "artist": "RR",
+    "releaseDate": "2023",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "uYxowLFAu0I",
+    "slug": "la-noche"
+  },
+  {
+    "id": 11,
+    "libelle": "Reflet",
+    "artist": "MISA",
+    "releaseDate": "2022",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "FTWPiFWcCJw",
+    "slug": "reflet"
+  },
+  {
+    "id": 12,
+    "libelle": "PARADOXE",
+    "artist": "L'AS ft. Zamdane",
+    "releaseDate": "2022",
+    "credits": "Co-Director/Edit - ZACK",
+    "youtubeId": "P0V88uMKc-o",
+    "slug": "paradoxe"
+  },
+
+  {
+    "id": 13,
+    "libelle": "DOSE",
+    "artist": "L'AS",
+    "releaseDate": "2022",
+    "credits": "Co-Director/Edit - ZACK",
+    "youtubeId": "M0_W9rgyN00",
+    "slug": "dose"
+  },
+
+  {
+    "id": 14,
+    "libelle": "Vent du Nord",
+    "artist": "Gabi",
+    "releaseDate": "2022",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "n1WxAJf5IUQ",
+    "slug": "vent-du-nord"
+  },
+
+  {
+    "id": 15,
+    "libelle": "DRAPEAU NOIR",
+    "artist": "BEN.C X HK LA PAILLE",
+    "releaseDate": "2023",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "5ba-bpONEOY",
+    "slug": "drapeau-noir"
+  },
+
+  {
+    "id": 16,
+    "libelle": "Hiver",
+    "artist": "DY",
+    "releaseDate": "2023",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "BAW-tPjf83E",
+    "slug": "hiver"
+  },
+  {
+    "id": 17,
+    "libelle": "Blind dates",
+    "artist": "Nyxjvh",
+    "releaseDate": "2023",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "36006nO2lPQ",
+    "slug": "blind-dates"
+  },
+  {
+    "id": 18,
+    "libelle": "HERTZ",
+    "artist": "Ambroise",
+    "releaseDate": "2023",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "SSTBkmqevlw",
+    "slug": "hertz"
+  }
+]

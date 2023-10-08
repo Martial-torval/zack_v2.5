@@ -1,0 +1,38 @@
+.container--about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 50%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    gap: 5em;
+}
+.container--about div {
+    flex: 1;
+}
+.container--about > span > img {
+    height: auto;
+    width: 100%;
+}
+
+.container--about .lazy-load-image-background {
+    width: 40%;
+}
+
+.container--about p {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: justify;
+}
+
+/* .container--about h3 {
+    text-align: center;
+} */
+
+.heading-about span:nth-child(2), .heading-about span:nth-child(4) {
+    cursor: pointer;
+}

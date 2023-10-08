@@ -1,21 +1,18 @@
 import "./App.css";
-
+import Project from "./Pages/Project/Project";
+import HomePage from "./Pages/HomePage/HomePage";
+import { Routes, Route } from "react-router-dom";
+import About from "./Pages/About/About";
+import Photo from "./Pages/Photo/Photo";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/portfolio/:clipName" element={<Project />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/photo" element={<Photo />} />
+      </Routes>
     </div>
   );
 }

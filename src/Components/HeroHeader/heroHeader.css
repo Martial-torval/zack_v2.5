@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+
+.hero-header {
+    position: relative;
+    overflow-y: hidden;
+}
+
+.hero-header h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.video-item {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 15vh;
+    align-items: center;
+}
+
+.video-item img {
+    width: 8%;
+    margin: 0.5em;
+    height: auto;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.video-item img:hover {
+    transition: 0.5s;
+    opacity: 1;
+}
+
+
+

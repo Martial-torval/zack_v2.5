@@ -1,0 +1,66 @@
+div h3 {
+    color: white;
+}
+
+.container--carousel {
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+
+
+.carousel .slider-wrapper {
+    width: 100%;
+}
+
+.carousel .slide {
+    height: 60vh;
+}
+
+.carousel .thumbs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carousel-item {
+    min-height: 100%;
+}
+
+.thumb {
+    border: none!important;
+    cursor: pointer;
+    margin: 0!important;
+    max-height: 40px;
+    opacity: 0.5;
+    width: 6.25%!important;
+}
+
+ul.thumbs {
+    padding: 0;
+}
+
+.control-arrow {
+    display: none;
+}
+
+.thumbs.animated {
+    transform: initial!important;
+}
+
+.thumbs-wrapper {
+    margin: 0!important;
+}
+
+.thumb.selected,.thumb:hover {
+    opacity: 1;
+}
+
+.lazy-load-image-background {
+    width: 100%;
+}

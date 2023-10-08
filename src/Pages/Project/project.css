@@ -1,0 +1,64 @@
+
+.container--clipPage {
+    height: 90vh;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+
+
+
+.container--clipPage div:nth-child(1) {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+/* Container YouTube player */
+
+
+iframe {
+    width: 1156px;
+    height: 650px;
+    /* position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+h2 {
+    text-align: center;
+}
+span {
+    color: white;
+}
+
+
+.container--infoClip {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    
+}
+
+.container--project{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}

@@ -1,5 +1,11 @@
+import "./staticPage.css";
+
 const staticPage = () => {
-  return <div>staticPage</div>;
+  return (
+    <p className="message_mobile">
+      La version mobile est en cours de développement.
+    </p>
+  );
 };
 
 export default staticPage;

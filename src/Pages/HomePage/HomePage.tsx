@@ -18,23 +18,21 @@ const HomePage = () => {
   // USE EFFECT (SETUP TIME EFFECTS)
 
   useEffect(() => {
-    // Ici, vous pouvez simuler une opération de chargement en attendant quelques secondes
     setTimeout(() => {
       h1.current?.classList.add("active");
-      setIsDisplayedH1(false); // Une fois le chargement terminé, masquez l'écran de chargement
+      setIsDisplayedH1(false);
     }, 1000);
     setTimeout(() => {
       h2.current?.classList.add("active");
-      setIsDisplayedH2(false); // Une fois le chargement terminé, masquez l'écran de chargement
+      setIsDisplayedH2(false);
     }, 2000);
     setTimeout(() => {
       s1.current?.classList.add("active");
-      setIsDisplayedS1(false); // Une fois le chargement terminé, masquez l'écran de chargement
+      setIsDisplayedS1(false);
     }, 3000);
 
     setTimeout(() => {
-      // container.current?.classList.add("hidden");
-      setIsHiding(true); // Une fois le chargement terminé, masquez l'écran de chargement
+      setIsHiding(true);
     }, 4000);
   }, []);
 

@@ -5,8 +5,10 @@ import Header from "../Header/Header";
 const HeroHeader = () => {
   return (
     <>
-      <Header />
-      <section className="hero-header">{<Video />}</section>
+      <div className="start">
+        <Header />
+        <section className="hero-header">{<Video />}</section>
+      </div>
     </>
   );
 };

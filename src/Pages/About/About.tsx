@@ -17,6 +17,8 @@ const About = () => {
           alt="About pic"
           loading="lazy"
           effect="blur"
+          width="1242"
+          height="2208"
         />
         <div>
           <div className="heading-about">

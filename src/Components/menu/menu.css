@@ -63,14 +63,21 @@ ul {
     flex-direction: column;
     justify-content: flex-start;
     gap: 10px;
-    padding: 0.5em;
+    padding-left: 15px;
+}
+.project-list li:nth-child(1) {
+    margin-top: 10px;
+    color: red;
 }
 
-.project-list a {
-    margin: 0.5em;
-    text-align: left;
-    cursor: pointer;
+.project-list li {
+    margin-bottom: 10px;
 }
+
+li:last-child() {
+    margin-bottom: 15px;
+}
+
 
 .active {
     padding: 0.5em;

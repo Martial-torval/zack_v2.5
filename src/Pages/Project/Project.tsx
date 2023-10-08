@@ -2,16 +2,10 @@ import "./project.css";
 import Header from "../../Components/Header/Header";
 import data from "../../data.json";
 import { useParams } from "react-router-dom";
-import YouTube from "react-youtube";
 
 const Project = () => {
   const { clipName } = useParams();
 
-  const options = {
-    position: "absolute",
-    transform: "translate(-50%, -50%)",
-    bottom: "50%",
-  };
   const selectedClip = data.find((clipValues) => {
     return clipName === clipValues.slug;
   });
@@ -26,7 +20,14 @@ const Project = () => {
             <span>{selectedClip.credits}</span>
             <span>{selectedClip.releaseDate}</span>
           </div>
-          <YouTube id="youTubePlayer" videoId={selectedClip.youtubeId} />
+          <iframe
+            title={selectedClip.artist + " - " + selectedClip.libelle}
+            src={`https://www.youtube.com/embed/${selectedClip.youtubeId}`}
+            loading={"lazy"}
+            aria-label={`Vidéo YouTube : ${
+              selectedClip.artist + " - " + selectedClip.libelle
+            }`}
+          />
         </div>
       </>
     );

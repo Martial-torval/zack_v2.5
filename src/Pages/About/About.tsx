@@ -6,7 +6,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 const About = () => {
-  const [language, setLanguage] = useState("fr");
+  const [language, setLanguage] = useState("en");
 
   return (
     <>
@@ -23,9 +23,9 @@ const About = () => {
         <div>
           <div className="heading-about">
             <h3>Zack - Editor | Director</h3>
-            <span onClick={() => setLanguage("fr")}>FR </span>
-            <span>-</span>
             <span onClick={() => setLanguage("en")}> EN</span>
+            <span> - </span>
+            <span onClick={() => setLanguage("fr")}>FR </span>
           </div>
 
           {language === "fr" ? (

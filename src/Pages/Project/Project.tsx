@@ -21,6 +21,7 @@ const Project = () => {
             <span>{selectedClip.releaseDate}</span>
           </div>
           <iframe
+            allow="fullscreen"
             title={selectedClip.artist + " - " + selectedClip.libelle}
             src={`https://www.youtube.com/embed/${selectedClip.youtubeId}`}
             loading={"lazy"}

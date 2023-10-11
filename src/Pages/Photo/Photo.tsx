@@ -14,21 +14,21 @@ const Photo = () => {
       <Carousel
         infiniteLoop
         autoPlay
-        interval={5000}
-        transitionTime={200}
+        interval={8000}
+        transitionTime={700}
         className="container--carousel"
         showIndicators={false}
         showArrows={false}
         showStatus={false}
         animationHandler={"fade"}
         useKeyboardArrows
+        // dynamicHeight
       >
         {allImages.map((image, index) => (
           <div>
             <img
               src={image}
               loading="lazy"
-              // effect="blur"
               alt={`${index}`}
               className="carousel-item"
             />

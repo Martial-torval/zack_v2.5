@@ -1,8 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* font-family: 'Inter Tight', sans-serif; */
+  /* font-family: 'Manrope', sans-serif; */
+  /* font-family: 'Mulish', sans-serif; */
+  /* font-family: 'Questrial', sans-serif; */
+  font-family: 'Work Sans', sans-serif; 
+
 }
 
 code {

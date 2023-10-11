@@ -32,11 +32,6 @@ img {
     width: 100%;
     height: auto;
 }
-aside {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-}
 h2 {
     text-align: center;
 }
@@ -49,7 +44,7 @@ span {
     align-self: start;
     display: flex;
     flex-direction: column;
-    gap: 0.5em;
+    margin-bottom: 1em;
     
 }
 

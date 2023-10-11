@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./menu.css";
 import { useState } from "react";
 import data from "../../data.json";
+import arrow from "../../assets/img/arrow.svg";
 
 const Menu = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -16,7 +17,8 @@ const Menu = () => {
             onMouseOver={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            Portfolio <span>&#x25B6;</span>
+            <span>Portfolio</span>
+            {/* <img src={arrow} alt="arrow-icon" /> */}
             <ul className="project-list">
               {data.map((clip) =>
                 isHovered ? (

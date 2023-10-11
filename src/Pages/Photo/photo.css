@@ -8,7 +8,7 @@ div h3 {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 1em;
 }
@@ -20,12 +20,13 @@ div h3 {
 }
 
 .carousel .slide {
-    height: 60vh;
+    height: 70vh;
 }
 
 .carousel .thumbs {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 2em;
 }
 
 .carousel-item {

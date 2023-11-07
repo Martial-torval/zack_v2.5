@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import "./menu.css";
 import { useState } from "react";
 import data from "../../data.json";
-import arrow from "../../assets/img/arrow.svg";
 
 const Menu = () => {
   const [isHovered, setIsHovered] = useState(false);

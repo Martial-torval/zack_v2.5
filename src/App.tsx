@@ -8,7 +8,7 @@ import Photo from "./Pages/Photo/Photo";
 import { useMediaQuery } from "react-responsive";
 
 function App() {
-  const isMobileOrTablet = useMediaQuery({ query: "(max-width: 768px)" });
+  const isMobileOrTablet = useMediaQuery({ query: "(max-width: 1100px)" });
   return !isMobileOrTablet ? (
     <div className="App">
       <Routes>

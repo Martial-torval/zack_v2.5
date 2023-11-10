@@ -21,7 +21,7 @@
 nav ul{
     display: flex;
     justify-content: flex-end;
-    /* text-transform: uppercase; */
+
 }
 
 
@@ -97,9 +97,7 @@ li:last-child() {
     text-align: right;
 }
 
-.portfolio:hover {
-    font-style: italic;
-}
+
 
 .portfolio img {
     width: 5%;

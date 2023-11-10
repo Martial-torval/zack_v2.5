@@ -53,9 +53,7 @@ import img53 from "../assets/img/Untitled_11.11.1.png";
 import img54 from "../assets/img/Untitled_11.11.2.png";
 import img55 from "../assets/img/Untitled_11.11.3.png";
 import img56 from "../assets/img/Untitled_11.11.4.png";
-import img57 from "../assets/img/Untitled_12.1.1.png";
 import img58 from "../assets/img/Untitled_12.1.8.png";
-import img59 from "../assets/img/Untitled_12.1.9.png";
 
 // THUMBS
 import thumb1 from "../assets/img/thumbs/Untitled_1.1.1.jpg";
@@ -113,7 +111,6 @@ import thumb52 from "../assets/img/thumbs/Untitled_11.11.1.jpg";
 import thumb53 from "../assets/img/thumbs/Untitled_11.11.2.jpg";
 import thumb54 from "../assets/img/thumbs/Untitled_11.11.3.jpg";
 import thumb55 from "../assets/img/thumbs/Untitled_11.11.4.jpg";
-import thumb56 from "../assets/img/thumbs/Untitled_12.1.1.jpg";
 import thumb57 from "../assets/img/thumbs/Untitled_12.1.8.jpg";
 import thumb58 from "../assets/img/thumbs/Untitled_12.1.9.jpg";
 
@@ -173,9 +170,7 @@ const allImages = [
   img54,
   img55,
   img56,
-  img57,
   img58,
-  img59,
 ];
 
 const allThumbs = [
@@ -234,7 +229,6 @@ const allThumbs = [
   thumb53,
   thumb54,
   thumb55,
-  thumb56,
   thumb57,
   thumb58,
 ];

@@ -1,0 +1,53 @@
+.project-list {
+    position: absolute;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 15px;
+    justify-content: flex-end;
+    right: 85px;
+}
+
+
+
+.project-list li:nth-child(1) {
+    margin-top: 10px;
+    color: red;
+}
+
+.project-list li {
+    margin-bottom: 10px;
+    text-align: initial;
+    font-style: initial;
+    font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.project-list li:hover,
+.nav-item:hover {
+    font-weight: 600;
+}
+
+.portfolio {
+    cursor: default;
+    width: 100%;
+    text-align: right;
+}
+
+.portfolio img {
+    width: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+    .project-list {
+        right: initial;
+        position: relative;
+        z-index: 10000;
+        display: none;
+    }
+
+    .project-list.active {
+        display: block;
+    }
+}

@@ -37,27 +37,9 @@
     "youtubeId": "HdOgIS1VeL4",
     "slug": "ams"
   },
-  {
-    "id": 5,
-    "libelle": "London",
-    "artist": "SULLY",
-    "releaseDate": "2022",
-    "credits": "Director/Edit/Color - ZACK",
-    "youtubeId": "8eEOs9NVN-U",
-    "slug": "london"
-  },
-  {
-    "id": 6,
-    "libelle": "Mon Bébé",
-    "artist": "SULLY",
-    "releaseDate": "2022",
-    "credits": "Director/Edit/Color - ZACK",
-    "youtubeId": "mGpR6Lke5jA",
-    "slug": "mon-bebe"
-  },
 
   {
-    "id": 7,
+    "id": 5,
     "libelle": "L'hiver sans soleil",
     "artist": "SEUBLI",
     "releaseDate": "2023",
@@ -66,7 +48,7 @@
     "slug": "l'hiver-sans-soleil"
   },
   {
-    "id": 8,
+    "id": 6,
     "libelle": "21G",
     "artist": "2ZER",
     "releaseDate": "2023",
@@ -75,7 +57,7 @@
     "slug": "21g"
   },
   {
-    "id": 9,
+    "id": 7,
     "libelle": "Il était une fois…",
     "artist": "YUNG $INAY",
     "releaseDate": "2023",
@@ -83,17 +65,9 @@
     "youtubeId": "uhm0w76zpsc",
     "slug": "il-etait-une-fois"
   },
+
   {
-    "id": 10,
-    "libelle": "La Noche",
-    "artist": "RR",
-    "releaseDate": "2023",
-    "credits": "Director/Edit/Color - ZACK",
-    "youtubeId": "uYxowLFAu0I",
-    "slug": "la-noche"
-  },
-  {
-    "id": 11,
+    "id": 8,
     "libelle": "Reflet",
     "artist": "MISA",
     "releaseDate": "2022",
@@ -102,7 +76,7 @@
     "slug": "reflet"
   },
   {
-    "id": 12,
+    "id": 9,
     "libelle": "PARADOXE",
     "artist": "L'AS ft. Zamdane",
     "releaseDate": "2022",
@@ -112,7 +86,7 @@
   },
 
   {
-    "id": 13,
+    "id": 10,
     "libelle": "DOSE",
     "artist": "L'AS",
     "releaseDate": "2022",
@@ -122,7 +96,7 @@
   },
 
   {
-    "id": 14,
+    "id": 11,
     "libelle": "Vent du Nord",
     "artist": "Gabi",
     "releaseDate": "2022",
@@ -132,7 +106,7 @@
   },
 
   {
-    "id": 15,
+    "id": 12,
     "libelle": "DRAPEAU NOIR",
     "artist": "BEN.C X HK LA PAILLE",
     "releaseDate": "2023",
@@ -142,7 +116,7 @@
   },
 
   {
-    "id": 16,
+    "id": 13,
     "libelle": "Hiver",
     "artist": "DY",
     "releaseDate": "2023",
@@ -151,7 +125,7 @@
     "slug": "hiver"
   },
   {
-    "id": 17,
+    "id": 14,
     "libelle": "Blind dates",
     "artist": "Nyxjvh",
     "releaseDate": "2023",
@@ -160,12 +134,21 @@
     "slug": "blind-dates"
   },
   {
-    "id": 18,
+    "id": 15,
     "libelle": "HERTZ",
     "artist": "Ambroise",
     "releaseDate": "2023",
     "credits": "Director/Edit/Color - ZACK",
     "youtubeId": "SSTBkmqevlw",
     "slug": "hertz"
+  },
+  {
+    "id": 16,
+    "libelle": "BLOKOVI",
+    "artist": "",
+    "releaseDate": "2023",
+    "credits": "Director/Edit/Color - ZACK",
+    "youtubeId": "MY_Fkal3rII",
+    "slug": "blokovi"
   }
 ]

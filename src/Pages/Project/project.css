@@ -47,8 +47,7 @@ span {
     flex-direction: column;
     width: 80%;
     margin: 1em auto;
-
-    
+    font-weight: 600; 
 }
 
 .container--project{

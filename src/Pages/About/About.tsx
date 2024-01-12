@@ -1,15 +1,25 @@
 import "./about.css";
 import aboutPic from "../../assets/img/IMG_7059.png";
-import Header from "../../Components/Header/Header";
+import Header from "../../Components/common/Header/Header";
 import { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   const [language, setLanguage] = useState("en");
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>About</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta
+          name="description"
+          content="Homepage with presentation video of all condensed projects"
+        />
+      </Helmet>
       <Header />
       <div className="container--about">
         <LazyLoadImage

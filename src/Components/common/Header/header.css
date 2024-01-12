@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 15;
+    position: fixed;
+}
+
+h1 > a {
+    text-decoration: none;
+    margin: 0 1em;
+    color: white;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.fixed {
+    position: fixed;
+}
+
+@media screen and (max-width: 1000px) {
+    .desktop_header {
+        position: initial;
+        display: none;
+    }
+
+    .main-title {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        background-color: black;
+    }
+
+}
+

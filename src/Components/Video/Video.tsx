@@ -1,32 +1,39 @@
 import Loop from "../../assets/media/FULLSCREEN LOOPmp4.mov";
 import "./video.css";
+import { useRef, useEffect } from "react";
 
-const Video = () => {
-  // const video = useRef<HTMLVideoElement | null>(null);
-  // const [isVisible, setIsVisible] = useState(false);
+// TYPE PROP VIDEO
+interface VideoProps {
+  onVideoLoaded?: () => void;
+}
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setIsVisible(true);
-  //   }, 6000);
-  // }, []);
-  // Lance ce useEffect à chaque fois que la valeur "isVisible change"
-  // useEffect(() => {
-  //   playVideoIfVisible();
-  // }, [isVisible]);
-
-  // function playVideoIfVisible() {
-  //   if (isVisible) {
-  //     video.current?.play();
-  //   } else {
-  //     video.current?.pause();
-  //   }
-  // }
+// VIDEO COMPONENT
+const Video: React.FC<VideoProps> = ({ onVideoLoaded }) => {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  useEffect(() => {
+    if (videoRef.current != null) {
+      videoRef.current.pause();
+    }
+    const handleVideoLoaded = () => {
+      if (onVideoLoaded) {
+        onVideoLoaded();
+      }
+    };
+    // LANCE LA FONCTION handleVideoLoaded lorsque la vidéo est chagée
+    if (videoRef.current) {
+      videoRef.current.addEventListener("loadeddata", handleVideoLoaded);
+    }
+    setTimeout(() => {
+      if (videoRef.current != null) {
+        videoRef.current.play();
+      }
+    }, 3000);
+  }, [onVideoLoaded]);
 
   return (
     <div className="container-loop">
-      <h2>editor. director</h2>
-      <video src={Loop} loop muted autoPlay>
+      {/* <h2>editor. director</h2> */}
+      <video src={Loop} loop muted autoPlay ref={videoRef}>
         <source type="video/mp4" />
       </video>
     </div>

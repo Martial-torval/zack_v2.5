@@ -1,18 +1,3 @@
-.dropdown  {
-        position: absolute;
-        padding-left: 1em;
-        background-color: black;
-        flex-direction: column;
-}
-
-.dropdown a {
-    color: white;
-    list-style: none;
-    margin: 1em 0 0 0;
-                                                
-}
-
-
 .visible {
     transition: 0.5s;
     opacity: 1;
@@ -21,14 +6,9 @@
 nav ul{
     display: flex;
     justify-content: flex-end;
-
+    list-style: none;
 }
 
-
-
-ul {
-    list-style:none;
-}
 .nav-item, .nav-item a {
     text-decoration: none;
     color: white;
@@ -37,7 +17,6 @@ ul {
 
 .nav-item {
     margin: 0 1em;
-    
 }
 
 
@@ -49,39 +28,7 @@ ul {
     display: block;
 }
 
-.thumbMenu {
-    position: absolute;
-    top: 0;
-    width: 80%;
-}
 
-
-
-.project-list {
-    position: absolute;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 15px;
-    justify-content: flex-end;
-    right: 85px;
-}
-.project-list li:nth-child(1) {
-    margin-top: 10px;
-    color: red;
-}
-
-.project-list li {
-    margin-bottom: 10px;
-    text-align: initial;
-    font-style: initial;
-    font-weight: 400;
-}
-
-.project-list li:hover, .nav-item:hover {
-    font-weight: 600;
-}
 
 li:last-child() {
     margin-bottom: 15px;
@@ -91,23 +38,52 @@ li:last-child() {
 .active {
     padding: 0.5em;
 }
-.portfolio {
-    cursor: default;
-    width: 100%;
-    text-align: right;
-}
 
-
-
-.portfolio img {
-    width: 5%;
-}
 
 
 span > span {
     transform: rotate(90deg);
     display: inline-block;
     font-size: 35px;
+}
+
+@media screen and (max-width: 1000px) {
+    nav {
+        display: flex; 
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
+    nav ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    nav ul li a {
+       all: unset;
+       color: white;
+       text-transform: uppercase;
+    }
+
+    nav h1 {
+        color: white;
+        text-transform: uppercase;
+    }
+
+    main nav {
+        display: none;
+        width: 0%;
+        background-color: black;
+    }
+
+    main nav.active {
+        display: block;
+        width: 100%;
+    }
+
 }
 
 

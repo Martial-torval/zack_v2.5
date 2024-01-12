@@ -1,7 +1,8 @@
 import "./project.css";
-import Header from "../../Components/Header/Header";
+import Header from "../../Components/common/Header/Header";
 import data from "../../data.json";
 import { useParams } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Project = () => {
   const { clipName } = useParams();
@@ -13,6 +14,15 @@ const Project = () => {
   if (selectedClip) {
     return (
       <>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>{selectedClip.libelle}</title>
+          <link rel="canonical" href="https://zvck.eu/photo" />
+          <meta
+            name="description"
+            content="Homepage with presentation video of all condensed projects"
+          />
+        </Helmet>
         <Header />
         <div className="container--project">
           <div className="container--infoClip">

@@ -50,4 +50,12 @@
     .project-list.active {
         display: block;
     }
+    
+    .portfolio {
+        all: initial;
+        color: white;
+        font-family: 'Work Sans';
+        text-transform: uppercase;
+        text-align: center;
+    }
 }

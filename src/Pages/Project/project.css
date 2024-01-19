@@ -22,10 +22,6 @@ iframe {
     
     width: 80%;
     height: 80%;
-    /* position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     border: none;
 }
 
@@ -47,7 +43,15 @@ span {
     flex-direction: column;
     width: 80%;
     margin: 1em auto;
-    font-weight: 600; 
+}
+
+.container--infoClip > p {
+    color: white;
+    margin: 0;
+}
+
+.container--infoClip > p span:last-child {
+    font-weight: 600;
 }
 
 .container--project{

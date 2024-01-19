@@ -32,13 +32,9 @@ const Menu = () => {
         </nav>
       ) : (
         <nav>
+          <Link to="/about">About</Link>
+          <MenuClip />
           <h1>Zack</h1>
-          <ul>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <MenuClip />
-          </ul>
         </nav>
       )}
     </>

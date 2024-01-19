@@ -36,25 +36,25 @@ import img35 from "../assets/img/webp/Untitled_9.4.1.webp";
 import img36 from "../assets/img/webp/Untitled_9.6.1.webp";
 import img37 from "../assets/img/webp/Untitled_9.6.2.webp";
 import img38 from "../assets/img/webp/Untitled_9.20.1.webp";
-import img40 from "../assets/img/webp/Untitled_10.1.1.webp";
-import img41 from "../assets/img/webp/Untitled_10.1.2.webp";
-import img42 from "../assets/img/webp/Untitled_10.1.3.webp";
-import img43 from "../assets/img/webp/Untitled_10.1.4.webp";
-import img44 from "../assets/img/webp/Untitled_10.1.5.webp";
-import img45 from "../assets/img/webp/Untitled_10.1.6.webp";
-import img46 from "../assets/img/webp/Untitled_10.2.1.webp";
-import img47 from "../assets/img/webp/Untitled_10.2.2.webp";
-import img48 from "../assets/img/webp/Untitled_10.5.1.webp";
-import img49 from "../assets/img/webp/Untitled_10.6.1.webp";
-import img50 from "../assets/img/webp/Untitled_10.9.1.webp";
-import img51 from "../assets/img/webp/Untitled_10.10.1.webp";
-import img52 from "../assets/img/webp/Untitled_10.18.1.webp";
-import img53 from "../assets/img/webp/Untitled_11.11.1.webp";
-import img54 from "../assets/img/webp/Untitled_11.11.2.webp";
-import img55 from "../assets/img/webp/Untitled_11.11.3.webp";
-import img56 from "../assets/img/webp/Untitled_11.11.4.webp";
-import img57 from "../assets/img/webp/Untitled_12.1.8.webp";
-import img58 from "../assets/img/webp/Untitled_7.1.webp";
+import img39 from "../assets/img/webp/Untitled_10.1.1.webp";
+import img40 from "../assets/img/webp/Untitled_10.1.2.webp";
+import img41 from "../assets/img/webp/Untitled_10.1.3.webp";
+import img42 from "../assets/img/webp/Untitled_10.1.4.webp";
+import img43 from "../assets/img/webp/Untitled_10.1.5.webp";
+import img44 from "../assets/img/webp/Untitled_10.1.6.webp";
+import img45 from "../assets/img/webp/Untitled_10.2.1.webp";
+import img46 from "../assets/img/webp/Untitled_10.2.2.webp";
+import img47 from "../assets/img/webp/Untitled_10.5.1.webp";
+import img48 from "../assets/img/webp/Untitled_10.6.1.webp";
+import img49 from "../assets/img/webp/Untitled_10.9.1.webp";
+import img50 from "../assets/img/webp/Untitled_10.10.1.webp";
+import img51 from "../assets/img/webp/Untitled_10.18.1.webp";
+import img52 from "../assets/img/webp/Untitled_11.11.1.webp";
+import img53 from "../assets/img/webp/Untitled_11.11.2.webp";
+import img54 from "../assets/img/webp/Untitled_11.11.3.webp";
+import img55 from "../assets/img/webp/Untitled_11.11.4.webp";
+import img56 from "../assets/img/webp/Untitled_12.1.8.webp";
+import img57 from "../assets/img/webp/Untitled_7.1.webp";
 
 // THUMBS
 import thumb1 from "../assets/img/thumbs/Untitled_1.1.1.jpg";
@@ -112,9 +112,8 @@ import thumb52 from "../assets/img/thumbs/Untitled_11.11.1.jpg";
 import thumb53 from "../assets/img/thumbs/Untitled_11.11.2.jpg";
 import thumb54 from "../assets/img/thumbs/Untitled_11.11.3.jpg";
 import thumb55 from "../assets/img/thumbs/Untitled_11.11.4.jpg";
-import thumb57 from "../assets/img/thumbs/Untitled_12.1.8.jpg";
-import thumb58 from "../assets/img/thumbs/Untitled_12.1.9.jpg";
-import thumb59 from "../assets/img/thumbs/Untitled_7.1.jpg";
+import thumb56 from "../assets/img/thumbs/Untitled_12.1.8.jpg";
+import thumb57 from "../assets/img/thumbs/Untitled_7.1.jpg";
 
 const allImages = [
   img1,
@@ -155,6 +154,7 @@ const allImages = [
   img36,
   img37,
   img38,
+  img39,
   img40,
   img41,
   img42,
@@ -173,7 +173,6 @@ const allImages = [
   img55,
   img56,
   img57,
-  img58,
 ];
 
 const allThumbs = [
@@ -232,9 +231,8 @@ const allThumbs = [
   thumb53,
   thumb54,
   thumb55,
-  thumb57,
-  thumb58,
-  thumb59,
+  thumb56,
+  thumb57
 ];
 
 export { allImages, allThumbs };

@@ -3,11 +3,10 @@ import HeroHeader from "../../Components/HeroHeader/HeroHeader";
 import "./homePage.css";
 import { Helmet } from "react-helmet";
 import { useMediaQuery } from "react-responsive";
+import StaticPage from "../StaticPage/StaticPage";
+import MenuClip from "../../Components/menu/MenuClip";
 import { allImages } from "../../utils/globalImportThumb";
 import Header from "../../Components/common/Header/Header";
-import Footer from "../../Components/common/Footer/Footer";
-import MenuClip from "../../Components/menu/MenuClip";
-import StaticPage from "../StaticPage/StaticPage";
 
 const HomePage = () => {
   const isMobileOrTablet = useMediaQuery({ query: "(max-width: 1000px)" });
@@ -25,7 +24,7 @@ const HomePage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Home</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link rel="canonical" href="http://zvck.eu" />
         <meta
           name="description"
           content="Homepage with presentation video of all condensed projects"
@@ -35,13 +34,12 @@ const HomePage = () => {
       <main>
         {isMobileOrTablet ? (
           <>
-            {/* {allImages.map((image, key) => (
+          <Header/>
+            {allImages.map((image, key) => (
               <img key={key} src={image} alt={"image " + key} />
             ))}
-            <nav>
-              <MenuClip />
-            </nav> */}
-            <StaticPage />
+       
+            {/* <StaticPage /> */}
           </>
         ) : (
           <HeroHeader />

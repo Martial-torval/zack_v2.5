@@ -24,12 +24,12 @@ const MenuClip = () => {
   return (
     <>
       {isMobileOrTablet ? (
-        <li
+        <p
           key="portfolio"
           className="portfolio nav-item"
           onClick={() => handleClick()}
         >
-          <span>Portfolio</span>
+          Portfolio
           <ul className="project-list" ref={projectListRef}>
             {data.map((clip) =>
               isOpen ? (
@@ -38,13 +38,12 @@ const MenuClip = () => {
                     {clip.artist
                       ? clip.artist + " - " + clip.libelle
                       : clip.libelle}
-                    {}
                   </Link>
                 </li>
               ) : null
             )}
           </ul>
-        </li>
+        </p>
       ) : (
         <li
           key="portfolio"
@@ -61,7 +60,6 @@ const MenuClip = () => {
                     {clip.artist
                       ? clip.artist + " - " + clip.libelle
                       : clip.libelle}
-                    {}
                   </Link>
                 </li>
               ) : null

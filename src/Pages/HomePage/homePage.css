@@ -55,7 +55,6 @@
 
 @media screen and (max-width: 1000px) {
     main {
-        padding-top: 50px;
         display: flex;
         flex-direction: column;
         gap: 10px;

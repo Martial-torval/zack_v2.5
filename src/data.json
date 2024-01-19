@@ -144,6 +144,16 @@
   },
   {
     "id": 16,
+    "libelle": "Southside",
+    "artist": "LVZ",
+    "releaseDate": "2022",
+    "credits": "Edit/Color - ZACK",
+    "youtubeId": "-BA-5bA04J0",
+    "slug": "southside"
+  },
+
+  {
+    "id": 17,
     "libelle": "BLOKOVI",
     "artist": "",
     "releaseDate": "2023",

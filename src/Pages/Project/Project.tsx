@@ -23,10 +23,12 @@ const Project = () => {
             content="Homepage with presentation video of all condensed projects"
           />
         </Helmet>
+
+
         <Header />
         <div className="container--project">
           <div className="container--infoClip">
-            <span>{selectedClip.artist + " - " + selectedClip.libelle}</span>
+             {selectedClip.artist ? <p> <span> {selectedClip.artist} </span> {" - "} <span>{selectedClip.libelle}</span></p> : <span>{selectedClip.libelle}</span>}
             <span>{selectedClip.credits}</span>
             <span>{selectedClip.releaseDate}</span>
           </div>

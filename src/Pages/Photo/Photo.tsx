@@ -29,7 +29,7 @@ const Photo = () => {
         <link rel="canonical" href="https://zvck.eu/photo" />
         <meta
           name="description"
-          content="Homepage with presentation video of all condensed projects"
+          content="Compilation of several photos taken during the filming of the clips"
         />
       </Helmet>
       <div className="container--photo">
@@ -70,7 +70,7 @@ const Photo = () => {
             <LazyLoadImage
               key={index}
               src={thumb}
-              alt={`Thumbnail ${index}`}
+              alt={`Thumbnail ${index + 1}`}
               onClick={() => handleThumbnailClick(index)}
               className="thumb"
             />

@@ -37,8 +37,8 @@
 
 .portfolio img {
     width: 3%;
-    margin-left: 5px;
-    /* transform: rotate(270deg); */
+    position: absolute;
+    margin: 5px 0 0 5px;
 }
 
 @media screen and (max-width: 1000px) {

@@ -35,3 +35,41 @@
 .heading-about span:nth-child(2), .heading-about span:nth-child(4) {
     cursor: pointer;
 }
+
+@media screen and (max-width: 1000px) {
+    .container--about {
+        all: initial;
+        font-family: 'Work Sans';
+        font-size: 13px;
+    }
+
+    .container--about .lazy-load-image-background {
+        width: 100%;
+        text-align: center;
+    }
+
+    .heading-about {
+        text-align: center;
+    }
+
+    .container--about > span > img {
+        width: 50%;
+    }
+
+    .container--about > span {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .container--about p {
+        width: 80%;
+        margin: 20px auto;
+        font-size: 15px;
+    }
+    .openToWork {
+        text-align: center;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+}

@@ -21,7 +21,7 @@
     text-align: initial;
     font-style: initial;
     font-weight: 400;
-  font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .project-list li:hover,
@@ -32,11 +32,13 @@
 .portfolio {
     cursor: default;
     width: 100%;
-    text-align: right;
+    text-align: center;
 }
 
 .portfolio img {
-    width: 5%;
+    width: 3%;
+    margin-left: 5px;
+    /* transform: rotate(270deg); */
 }
 
 @media screen and (max-width: 1000px) {
@@ -45,17 +47,24 @@
         position: relative;
         z-index: 10000;
         display: none;
+        padding: 0;
+    }
+
+    .project-list li {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 0;
     }
 
     .project-list.active {
-        display: block;
+        display: flex;
+        height: 85vh;
+        justify-content: space-around;
+        margin-bottom: 10em;
     }
-    
+
     .portfolio {
-        all: initial;
-        color: white;
-        font-family: 'Work Sans';
-        text-transform: uppercase;
-        text-align: center;
+        margin-top: 0.7em;
+        font-size: 20px;
     }
 }

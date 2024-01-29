@@ -3,6 +3,7 @@ import data from "../../data.json";
 import { Link } from "react-router-dom";
 import "./menuClip.css";
 import { useMediaQuery } from "react-responsive";
+import { arrowWhite } from "../../utils/globalImportThumb";
 
 const MenuClip = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,6 +31,7 @@ const MenuClip = () => {
           onClick={() => handleClick()}
         >
           Portfolio
+          <img src={arrowWhite} alt="arrow-down" />
           <ul className="project-list" ref={projectListRef}>
             {data.map((clip) =>
               isOpen ? (

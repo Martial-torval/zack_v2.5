@@ -55,7 +55,6 @@ import img54 from "../assets/img/webp/Untitled_11.11.3.webp";
 import img55 from "../assets/img/webp/Untitled_11.11.4.webp";
 import img56 from "../assets/img/webp/Untitled_12.1.8.webp";
 import img57 from "../assets/img/webp/Untitled_7.1.webp";
-
 // THUMBS
 import thumb1 from "../assets/img/thumbs/Untitled_1.1.1.jpg";
 import thumb2 from "../assets/img/thumbs/Untitled_1.1.2.jpg";
@@ -114,6 +113,11 @@ import thumb54 from "../assets/img/thumbs/Untitled_11.11.3.jpg";
 import thumb55 from "../assets/img/thumbs/Untitled_11.11.4.jpg";
 import thumb56 from "../assets/img/thumbs/Untitled_12.1.8.jpg";
 import thumb57 from "../assets/img/thumbs/Untitled_7.1.jpg";
+
+// SVG arrow
+
+import arrowBlack from "../assets/img/arrowBlack.svg";
+import arrowWhite from "../assets/img/arrowWhite.svg";
 
 const allImages = [
   img1,
@@ -232,7 +236,7 @@ const allThumbs = [
   thumb54,
   thumb55,
   thumb56,
-  thumb57
+  thumb57,
 ];
 
-export { allImages, allThumbs };
+export { allImages, allThumbs, arrowBlack, arrowWhite };

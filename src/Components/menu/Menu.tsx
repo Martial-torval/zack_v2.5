@@ -34,7 +34,9 @@ const Menu = () => {
         <nav>
           <Link to="/about">About</Link>
           <MenuClip />
-          <h1>Zack</h1>
+          <h1>
+            <Link to="/">Zack</Link>
+          </h1>
         </nav>
       )}
     </>

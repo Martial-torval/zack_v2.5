@@ -72,7 +72,11 @@ span > span {
        text-transform: uppercase;
     }
 
-    nav h1 {
+    nav a {
+        font-size: 20px;
+    }
+
+    nav h1 a {
         color: white;
         font-size: 70px;
     }

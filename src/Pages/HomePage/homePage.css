@@ -63,4 +63,16 @@
     img {
         margin: 0;
     }
+
+    svg {
+        z-index: 10000;
+    }
+
+    .scroll-to-top {
+        background-color: black!important;
+    }
+
+    .scroll-to-top svg {
+        color: white;
+    }
 }

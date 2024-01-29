@@ -51,7 +51,7 @@ const About = () => {
                 mettant en valeur l’énergie dynamique et l’esthétique audacieuse
                 qui définissent son travail.
               </p>
-              <span>
+              <span className="openToWork">
                 Ouvert aux commissions : Montage, étalonnage, réalisation,
                 D.O.P.
               </span>
@@ -68,7 +68,7 @@ const About = () => {
                 through his lens, showcasing the dynamic energy and bold
                 aesthetics that define his work.
               </p>
-              <span>
+              <span className="openToWork">
                 Open for commissions : Editing, Colour Grading, Directing, D.O.P
               </span>
             </>

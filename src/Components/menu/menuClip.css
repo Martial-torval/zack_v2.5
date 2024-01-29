@@ -59,8 +59,7 @@
 
     .project-list.active {
         display: flex;
-        height: 85vh;
-        justify-content: space-around;
+        justify-content: flex-start;
     }
 
     .portfolio {

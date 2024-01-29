@@ -20,11 +20,23 @@ div h3 {
     width: 100%;
     height: 100%;
     background-position: center center;
+    background-repeat: no-repeat;
     filter: brightness(0.6) blur(15px);
     z-index: -1;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     transition: 0.7s;
+    animation-name: fadeIn;
 }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+        opacity: 1;
+    }
+  }
 
 .container--photo .blur-overlay {
     background-size: contain; 

@@ -1,5 +1,5 @@
 import "./about.css";
-import aboutPic from "../../assets/img/IMG_7059.png";
+import aboutPic from "../../assets/img/IMG_7059.webp";
 import Header from "../../Components/common/Header/Header";
 import { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -14,10 +14,10 @@ const About = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>About</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link rel="canonical" href="http://zvck.eu/about" />
         <meta
           name="description"
-          content="Homepage with presentation video of all condensed projects"
+          content="About me page"
         />
       </Helmet>
       <Header />

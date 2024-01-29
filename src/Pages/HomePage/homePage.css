@@ -70,6 +70,7 @@
 
     .scroll-to-top {
         background-color: black!important;
+        right: 20px!important;
     }
 
     .scroll-to-top svg {

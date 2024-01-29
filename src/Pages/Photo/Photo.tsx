@@ -25,7 +25,7 @@ const Photo = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Photos</title>
+        <title>Photo</title>
         <link rel="canonical" href="https://zvck.eu/photo" />
         <meta
           name="description"

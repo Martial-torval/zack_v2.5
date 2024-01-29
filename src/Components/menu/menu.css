@@ -55,7 +55,10 @@ span > span {
         position: relative;
         text-transform: uppercase;
         align-items: center;
+    }
 
+    nav > a {
+        margin-top: 10px;
     }
 
     nav ul {

@@ -15,10 +15,7 @@ const About = () => {
         <meta charSet="utf-8" />
         <title>About</title>
         <link rel="canonical" href="http://zvck.eu/about" />
-        <meta
-          name="description"
-          content="About me page"
-        />
+        <meta name="description" content="About me page" />
       </Helmet>
       <Header />
       <div className="container--about">
@@ -33,9 +30,9 @@ const About = () => {
         <div>
           <div className="heading-about">
             <h3>Zack - Editor | Director</h3>
-            <span onClick={() => setLanguage("en")}> EN</span>
+            {/* <span onClick={() => setLanguage("en")}> EN</span>
             <span> - </span>
-            <span onClick={() => setLanguage("fr")}>FR </span>
+            <span onClick={() => setLanguage("fr")}>FR </span> */}
           </div>
 
           {language === "fr" ? (
@@ -58,7 +55,7 @@ const About = () => {
             </>
           ) : (
             <>
-              <p>
+              <p className="bio">
                 Zack is a director known for his distinctive aesthetic inspired
                 by the world of Asian cinema. With a profound passion for hyper
                 urbanism, saturated colors, and poetic cinematography, he crafts

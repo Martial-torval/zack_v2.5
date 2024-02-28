@@ -50,7 +50,7 @@ span {
     margin: 0;
 }
 
-.container--infoClip > p span:last-child {
+.container--infoClip > p span {
     font-weight: 600;
 }
 
@@ -75,7 +75,7 @@ span {
     }
     iframe {
         width: 100%;
-        height: 50vh;
+        height: 55vh;
 
     }
 
@@ -84,6 +84,7 @@ span {
         font-size: 20px;
         width: 100%;
         margin: 1em 0;
+        gap: 17px;
     }
 }
 

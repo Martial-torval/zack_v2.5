@@ -41,7 +41,7 @@ const Photo = () => {
         <Carousel
           infiniteLoop
           autoPlay
-          interval={8000}
+          interval={6000}
           transitionTime={700}
           selectedItem={selectedImageIndex}
           onChange={(index) => {

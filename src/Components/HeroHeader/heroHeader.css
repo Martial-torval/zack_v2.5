@@ -3,6 +3,7 @@
 .hero-header {
     position: relative;
     overflow-y: hidden;
+    height: 100vh;
 }
 
 .hero-header h2{
@@ -14,29 +15,7 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 25px;
-}
-
-.video-item {
-    width: 60%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 15vh;
-    align-items: center;
-}
-
-.video-item img {
-    width: 8%;
-    margin: 0.5em;
-    height: auto;
-    cursor: pointer;
-    opacity: 0.5;
-}
-
-.video-item img:hover {
-    transition: 0.5s;
-    opacity: 1;
+    z-index: 1000;
 }
 
 .start {

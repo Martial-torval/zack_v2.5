@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
 import "./video.css";
 
@@ -13,9 +12,6 @@ const Video = () => {
         playing={true}
         loop={true}
         muted={true}
-        // width="100vw"
-        // height="100vh"
-        // style={{ position: "absolute", top: 0, left: 0 }}
       />
     </>
   );

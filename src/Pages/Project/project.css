@@ -49,9 +49,15 @@ span {
     color: white;
     margin: 0;
 }
+.container--infoClip span {
+    color: white;
+    margin: 0;
+    font-size: 0.8vw;
+}
 
 .container--infoClip > p span {
     font-weight: 600;
+    font-size: 0.8vw;
 }
 
 .container--project{

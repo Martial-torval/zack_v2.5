@@ -12,19 +12,21 @@
 }
 .container--about div {
     flex: 1;
+    font-size: 0.8vw;
 }
 .container--about > span > img {
     height: auto;
     width: 100%;
 }
-
+.bio {
+    text-transform: initial;
+}
 .container--about .lazy-load-image-background {
     width: 40%;
 }
 
 .container--about p {
     color: white;
-    font-size: 20px;
     font-weight: 500;
 }
 
@@ -36,11 +38,21 @@
     cursor: pointer;
 }
 
+.openToWork {
+    text-transform: initial;
+}
+
+.openToWork > span   {
+    transform: initial;
+    font-size: 0.7vw;
+}
+
 @media screen and (max-width: 1000px) {
     .container--about {
         all: initial;
         font-family: 'Work Sans';
         font-size: 13px;
+        margin-bottom: 1em;
     }
 
     .container--about .lazy-load-image-background {
@@ -50,6 +62,7 @@
 
     .heading-about {
         text-align: center;
+        font-size: 12px!important;
     }
 
     .container--about > span > img {
@@ -72,5 +85,12 @@
         width: 80%;
         display: block;
         margin: 0 auto;
+        text-transform: initial;
+        font-size: initial;
+        padding: 1em 0;
+    }
+
+    .openToWork span {
+        font-size: initial;
     }
 }

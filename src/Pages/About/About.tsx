@@ -66,7 +66,8 @@ const About = () => {
                 aesthetics that define his work.
               </p>
               <span className="openToWork">
-                Open for commissions : Editing, Colour Grading, Directing, D.O.P
+                Open for commissions : <br />{" "}
+                <span>Editing, Colour Grading, Directing, D.O.P</span>
               </span>
             </>
           )}

@@ -10,6 +10,8 @@ const MenuClip = () => {
   const [isHovered, setIsHovered] = useState(false);
   const isMobileOrTablet = useMediaQuery({ query: "(max-width: 1000px)" });
   const projectListRef = useRef<any>(null);
+  // const arrowRight = String.fromCharCode(8954);
+  // console.log(arrowRight);
 
   const handleClick = () => {
     setIsOpen((current) => !current);

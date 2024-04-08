@@ -6,7 +6,8 @@
     gap: 10px;
     padding-left: 15px;
     justify-content: flex-end;
-    right: 87px;
+    right: 0;
+    width: 20vw;
 }
 
 
@@ -22,6 +23,8 @@
     font-style: initial;
     font-weight: 400;
     font-family: 'Work Sans', sans-serif;
+    font-size: 0.7vw;
+    cursor: pointer;
 }
 
 .project-list li:hover,
@@ -60,6 +63,7 @@
     .project-list.active {
         display: flex;
         justify-content: flex-start;
+        width: 100%;
     }
 
     .portfolio {

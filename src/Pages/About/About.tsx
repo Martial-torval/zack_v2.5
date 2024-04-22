@@ -29,7 +29,7 @@ const About = () => {
         />
         <div>
           <div className="heading-about">
-            <h3>Zack - Editor | Director</h3>
+            <h3>Zack - Editor &#921; Director</h3>
             {/* <span onClick={() => setLanguage("en")}> EN</span>
             <span> - </span>
             <span onClick={() => setLanguage("fr")}>FR </span> */}

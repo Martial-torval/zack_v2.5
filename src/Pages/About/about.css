@@ -12,7 +12,9 @@
 }
 .container--about div {
     flex: 1;
-    font-size: 0.8vw;
+    font-size: 1vw;
+    widows: 2;
+    orphans: 2
 }
 .container--about > span > img {
     height: auto;

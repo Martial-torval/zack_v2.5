@@ -13,7 +13,7 @@ const About = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>About</title>
+        <title>ZACK - About</title>
         <link rel="canonical" href="http://zvck.eu/about" />
         <meta name="description" content="About me page" />
       </Helmet>

@@ -45,7 +45,7 @@ const HomePage = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Home</title>
+        <title>ZACK</title>
         <link rel="canonical" href="http://zvck.eu" />
         <meta
           name="description"

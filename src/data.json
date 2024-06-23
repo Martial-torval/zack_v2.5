@@ -4,7 +4,7 @@
     "libelle": "BAIL$",
     "artist": "OVTHEX",
     "releaseDate": "2023",
-    "credits": "Director/Edit/Color - ZACK",
+    "credits": "Director/Edit/Color",
     "duration": "3.24",
     "youtubeId": "EsAYrB9ripc",
     "slug": "bail$"
@@ -14,7 +14,7 @@
     "libelle": "Jusqu'ici tout va mal",
     "artist": "YUZ BOY",
     "releaseDate": "2023",
-    "credits": "Edit - ZACK",
+    "credits": "Edit",
     "duration": "2.06",
     "youtubeId": "H8wHeGlX0fs",
     "slug": "jusqu'ici-tout-va-mal"
@@ -24,7 +24,7 @@
     "libelle": "Prophecie",
     "artist": "22 CARBONE",
     "releaseDate": "2022",
-    "credits": "Director/Edit/Color - ZACK",
+    "credits": "Director/Edit/Color",
     "youtubeId": "OVivniQedmw",
     "slug": "prophecie"
   },
@@ -33,7 +33,7 @@
     "libelle": "AMS",
     "artist": "L’AS",
     "releaseDate": "2022",
-    "credits": "Director/Edit/Color - ZACK",
+    "credits": "Director/Edit/Color",
     "youtubeId": "HdOgIS1VeL4",
     "slug": "ams"
   },
@@ -42,7 +42,7 @@
     "libelle": "L'hiver sans soleil",
     "artist": "SEUBLI",
     "releaseDate": "2023",
-    "credits": "Director/Edit/Color - ZACK",
+    "credits": "Director/Edit/Color",
     "youtubeId": "_TMejCkSSkk",
     "slug": "l'hiver-sans-soleil"
   },
@@ -51,7 +51,7 @@
     "libelle": "21G",
     "artist": "2ZER",
     "releaseDate": "2023",
-    "credits": "Edit - ZACK",
+    "credits": "Edit",
     "youtubeId": "UH0SNWbzmIE",
     "slug": "21g"
   },
@@ -60,7 +60,7 @@
     "libelle": "Il était une fois…",
     "artist": "YUNG $INAY",
     "releaseDate": "2023",
-    "credits": "Director/Edit/Color - ZACK",
+    "credits": "Director/Edit/Color",
     "youtubeId": "uhm0w76zpsc",
     "slug": "il-etait-une-fois"
   },
@@ -69,7 +69,7 @@
     "libelle": "Reflet",
     "artist": "MISA",
     "releaseDate": "2022",
-    "credits": "Director/Edit/Color - ZACK",
+    "credits": "Director/Edit/Color",
     "youtubeId": "FTWPiFWcCJw",
     "slug": "reflet"
   },
@@ -78,7 +78,7 @@
     "libelle": "PARADOXE",
     "artist": "L'AS ft. Zamdane",
     "releaseDate": "2022",
-    "credits": "Co-Director/Edit - ZACK",
+    "credits": "Co-Director/Edit",
     "youtubeId": "P0V88uMKc-o",
     "slug": "paradoxe"
   },
@@ -87,7 +87,7 @@
     "libelle": "DOSE",
     "artist": "L'AS",
     "releaseDate": "2022",
-    "credits": "Co-Director/Edit - ZACK",
+    "credits": "Co-Director/Edit",
     "youtubeId": "M0_W9rgyN00",
     "slug": "dose"
   },
@@ -96,7 +96,7 @@
     "libelle": "Vent du Nord",
     "artist": "Gabi",
     "releaseDate": "2022",
-    "credits": "Director/Edit/Color - ZACK",
+    "credits": "Director/Edit/Color",
     "youtubeId": "n1WxAJf5IUQ",
     "slug": "vent-du-nord"
   },
@@ -105,7 +105,7 @@
     "libelle": "DRAPEAU NOIR",
     "artist": "BEN.C X HK LA PAILLE",
     "releaseDate": "2023",
-    "credits": "Director/Edit/Color - ZACK",
+    "credits": "Director/Edit/Color",
     "youtubeId": "5ba-bpONEOY",
     "slug": "drapeau-noir"
   },
@@ -114,7 +114,7 @@
     "libelle": "Hiver",
     "artist": "DY",
     "releaseDate": "2023",
-    "credits": "Director/Edit/Color - ZACK",
+    "credits": "Director/Edit/Color",
     "youtubeId": "BAW-tPjf83E",
     "slug": "hiver"
   },
@@ -123,7 +123,7 @@
     "libelle": "Blind dates",
     "artist": "Nyxjvh",
     "releaseDate": "2023",
-    "credits": "Director/Edit/Color - ZACK",
+    "credits": "Director/Edit/Color",
     "youtubeId": "36006nO2lPQ",
     "slug": "blind-dates"
   },
@@ -132,7 +132,7 @@
     "libelle": "HERTZ",
     "artist": "Ambroise",
     "releaseDate": "2023",
-    "credits": "Director/Edit/Color - ZACK",
+    "credits": "Director/Edit/Color",
     "youtubeId": "SSTBkmqevlw",
     "slug": "hertz"
   },
@@ -141,7 +141,7 @@
     "libelle": "Southside",
     "artist": "LVZ",
     "releaseDate": "2022",
-    "credits": "Edit/Color - ZACK",
+    "credits": "Edit/Color",
     "youtubeId": "-BA-5bA04J0",
     "slug": "southside"
   },
@@ -150,7 +150,7 @@
     "libelle": "BLOKOVI",
     "artist": "",
     "releaseDate": "2023",
-    "credits": "Director/Edit/Color - ZACK",
+    "credits": "Director/Edit/Color",
     "youtubeId": "MY_Fkal3rII",
     "slug": "blokovi"
   },
@@ -159,8 +159,26 @@
     "libelle": "VOLTAGE",
     "artist": "",
     "releaseDate": "2024",
-    "credits": "Director/Edit/Color - ZACK",
+    "credits": "Director/Edit/Color",
     "youtubeId": "pUdy1pt713Q",
     "slug": "voltage"
+  },
+  {
+    "id": 19,
+    "libelle": "SENTIMENTS",
+    "artist": "KERCHAK",
+    "releaseDate": "2024",
+    "credits": "Edit/Color",
+    "youtubeId": "uKoyxsP6a7s",
+    "slug": "sentiments"
+  },
+  {
+    "id": 20,
+    "libelle": "Phychologie inversée",
+    "artist": "22Carbone",
+    "releaseDate": "2024",
+    "credits": "Edit/Color",
+    "youtubeId": "se9WjbHAAnw",
+    "slug": "phychologie_inversee"
   }
 ]
